@@ -2,8 +2,8 @@
 tag: PMT, photosensor
 Maker: Hamamastu
 Assembly Size: 30 mm x 30 mm
-PMT Tube Size: -
-Built-in PMT Type No.: R11265U-100
+PMT Tube Size: - 
+Built-in PMT Type No.: R11265U-M4 series
 Photocathode Area Shape: Square
 Photocathode Area Size: 23 mm x 23 mm
 Wavelength (Short):
@@ -20,10 +20,13 @@ Window Material: Borosilicate glass
 Dynode Structure: Metal channel
 Dynode Stages: 12
 (Max. Rating) Anode to Cathode Voltage:
-    val: -1000
+    val: -1100
     unit: V
+(Max. Rating) Average Anode Current:
+    val: 0.36
+    unit: mA
 Anode to Cathode Supply Voltage:
-    val: -900
+    val: -1000
     unit: V
 (Cathode) Luminous Sensitivity Min.:
     val: 90
@@ -36,35 +39,31 @@ Anode to Cathode Supply Voltage:
     val: 110
     unit: mA/W
 (Anode) Luminous Sensitivity Min.:
-    val: 50
+    val: 25
     unit: A/lm
 (Anode) Luminous Sensitivity Typ.:
-    val: 130
+    val: 105
     unit: A/lm
 (Anode) Gain Typ.:
-    val: 1.2
+    val: 1.0
     order: 6
-    totval: 1.2e+06
-(Anode) Dark Current (after 30min.) Typ.:
-    val: 2
-    unit: nA
-(Anode) Dark Current (after 30min.) Max.:
-    val: 20
-    unit: nA
+    totval: 1.0e+06
+(Anode) Dark Current (after 30min.) Typ.: 1 nA / ch
+(Anode) Dark Current (after 30min.) Max.: 4 nA / ch
 (Time Response) Rise Time Typ.:
-    val: 1.3
+    val: 1.1
     unit: ns
 (Time Response) Transit Time Typ.:
-    val: 5.8
+    val: 5.3
     unit: ns
 (Time Response) Transit Time Spread Typ.:
-    val: 0.27
+    val: 0.39
     unit: ns
 (Anode) Pulse Linearity (2% deviation):
-    val: 20
+    val: 4
     unit: mA
 (Anode) Pulse Linearity (5% deviation):
-    val: 60
+    val: 7
     unit: mA
 ---
 ## Quantum Efficiency
